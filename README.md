@@ -1,1 +1,3 @@
-# HTML5InputFormsAnd_MediaQueries_Day47
+HTML 5 Input Forms
+Used Event Listners for Salary Output and Validations
+Used Media Queries
