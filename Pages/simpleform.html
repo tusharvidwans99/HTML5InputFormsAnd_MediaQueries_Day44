@@ -99,6 +99,19 @@
     }
     );
 
+
+    const password= document.querySelector('#pwd');
+    const passwordError= document.querySelector('.password-error');
+    password.addEventListener('input',
+    ()=>{
+        let passRegex= RegExp('^.{8,}$');
+        if(passRegex.test(password.value))
+            passwordError.textContent='';
+        else
+            passwordError.textContent="password is not in correct format";
+    }
+    );
+
     </script>
 </body>
 </html>
